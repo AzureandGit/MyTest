@@ -1,11 +1,11 @@
-# This is my simple Hello World app
+// This is my simple Hello World app
 
 const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello, World!');
+  res.end('Hello, whole World!');
 });
 
 server.listen(3000, () => {
