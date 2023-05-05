@@ -1,4 +1,4 @@
-# This is my simple Hello World app
+// This is my simple Hello World app
 
 const http = require('http');
 
